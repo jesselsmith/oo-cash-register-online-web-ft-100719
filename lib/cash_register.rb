@@ -3,8 +3,10 @@ class CashRegister
   def initialize(discount = 0)
     self.total = 0
   end
-  def add_item(title, price)
+  def add_item(title, price, quantity = 1)
     self.total =  price + self.total
   end
+  
+  def 
 
 end
