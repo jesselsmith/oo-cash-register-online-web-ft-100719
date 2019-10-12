@@ -13,9 +13,9 @@ class CashRegister
     self.total = ( price * quantity ) + self.total
     quantity.times { self.items << title }
     self.transactions << {
-      :title = title,
-      :price = price,
-      :quantity = quantity
+      title: title,
+      price: price,
+      quantity: quantity
     }
 
   end
