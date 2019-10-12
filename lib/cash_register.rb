@@ -36,5 +36,6 @@ class CashRegister
     else
       last_transaction[:quantity].times{self.items.pop}
       self.total = self.total - ( last_transaction[:price] * last_transaction[:quantity] )
+    end
   end
 end
