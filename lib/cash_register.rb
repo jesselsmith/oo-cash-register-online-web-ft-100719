@@ -1,5 +1,5 @@
 class CashRegister
-  attr_accessor :total, :discount
+  attr_accessor :total, :discount, :items
   def initialize(discount = 0)
     self.total = 0
     self.discount = discount
@@ -19,5 +19,7 @@ class CashRegister
       "After the discount, the total comes to $#{self.total.to_i}."
     end
   end
+
+  def items 
 
 end
