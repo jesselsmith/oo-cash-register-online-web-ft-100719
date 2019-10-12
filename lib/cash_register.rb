@@ -16,7 +16,7 @@ class CashRegister
       :price = price,
       :quantity = quantity
     }
-    
+
   end
 
   def apply_discount
