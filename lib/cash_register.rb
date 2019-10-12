@@ -13,7 +13,7 @@ class CashRegister
       puts "There is no employee discount!"
     else
       self.total =  self.total * (100.0 - (self.discount.to_f / 100.0))
-      puts "Discount applied! New total is #{self.total}"
+      puts "After the discount, the total comes to $#{self.total}."
     end
   end
 
