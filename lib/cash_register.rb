@@ -1,5 +1,5 @@
 class CashRegister
-  attr_accessor :total
+  attr_accessor :total, :discount
   def initialize(discount = 0)
     self.total = 0
   end
@@ -7,6 +7,8 @@ class CashRegister
     self.total = ( price * quantity ) + self.total
   end
 
-  def
+  def apply_discount
+    
+  end
 
 end
