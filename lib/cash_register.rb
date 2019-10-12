@@ -13,7 +13,7 @@ class CashRegister
       "There is no employee discount!"
     else
       self.total =  self.total * ((100.0 - self.discount) / 100.0)
-      "After the discount, the total comes to $#{self.total}."
+      "After the discount, the total comes to $#{self.total.to_i}."
     end
   end
 
